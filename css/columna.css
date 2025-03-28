@@ -1,0 +1,79 @@
+.contenedor {
+  display: block;
+  width: 100%;
+  margin: 16px;
+
+}
+
+.contenedor h3 {
+  margin-bottom: 5px;
+}
+
+.contenedor div {
+  padding: 10px;
+
+}
+
+#columna1 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px solid #ac4f4f;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna2 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dotted #8b3a3a;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna3 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dashed #7e4343;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna4 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px double #773a3a;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna5 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px groove #b46868;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna6 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px ridge #8b4b4b;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna7 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px inset #944c4c;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna8 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px outset #944949;
+  list-style: none;
+  color: aliceblue
+}

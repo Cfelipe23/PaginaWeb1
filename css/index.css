@@ -1,0 +1,115 @@
+/* ---- Estilos base ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+}
+
+/* ---- Estilos del menú ---- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+  padding: 10px;
+}
+
+/* Ocultar el menú en móviles */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(119, 113, 113);
+}
+
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  gap: 10px;
+}
+
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+
+/* ---- 📱 MEDIA QUERY PARA MÓVILES ---- */
+@media screen and (max-width: 768px) {
+
+  /* Para pantallas menores a 768px (tablets y celulares) */
+  body {
+    background-color: #333;
+    /* Cambia el fondo en pantallas pequeñas */
+  }
+
+  .container {
+    width: 90%;
+    /* Reduce el ancho del contenido */
+    text-align: center;
+    /* Centra el texto */
+  }
+
+  /* Hacer que el nav tenga posición relativa */
+  nav {
+    position: relative;
+  }
+
+  /* Ocultar el menú por defecto */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0;
+  }
+
+  /* Mostrar el menú cuando está activo */
+  nav ul.active {
+    display: flex;
+  }
+
+  /* Estilos del botón hamburguesa */
+  .menu-icon {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+  }
+}

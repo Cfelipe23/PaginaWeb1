@@ -1,0 +1,8 @@
+#degradado {
+  border: 3px solid rgb(0, 0, 0);
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(yellow, blue, red);
+
+
+}

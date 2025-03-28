@@ -1,0 +1,21 @@
+.contenedor {
+  text-align: justify;
+  margin: 5vh;
+  height: auto;
+  columns: 2;
+  column-gap: 2em;
+  padding-bottom: 2vh;
+}
+
+.contenedor h2 {
+  break-before: column;
+  margin: 10px;
+}
+
+
+
+.titulo {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
