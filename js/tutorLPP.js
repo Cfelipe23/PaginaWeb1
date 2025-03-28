@@ -1,4 +1,4 @@
-const apiKey = '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'; // Reemplaza con tu clave de API de OpenRouter
+const apiKey = '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'; // Reemplaza con tu clave de API de OpenRouter
 const apiUrl = 'https://openrouter.ai/api/v1/chat/completions'; // Endpoint de OpenRouter
 
 function sendMessage() {
@@ -36,8 +36,8 @@ function sendMessage() {
         }
       ],
 
-      temperature: 0, // Controla la creatividad (0 = preciso, 1 = creativo)
-      top_p: 0.5 // Controla la diversidad de las respuestas
+      temperature: 0,
+      top_p: 0.5
     } )
   };
 

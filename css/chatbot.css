@@ -14,11 +14,13 @@
   border-radius: 5px;
   height: 200px;
   overflow-y: auto;
+  color: black;
 }
 
 input {
   width: 690px;
   margin: 0 auto;
+
 }
 
 button {

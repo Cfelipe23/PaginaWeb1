@@ -1,4 +1,4 @@
-const apiKey = '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'; // Reemplaza con tu clave de API de OpenRouter
+const apiKey = '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'; // Reemplaza con tu clave de API de OpenRouter
 const apiUrl = 'https://openrouter.ai/api/v1/chat/completions'; // Endpoint de OpenRouter
 
 function sendMessage() {
